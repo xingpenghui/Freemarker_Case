@@ -20,6 +20,7 @@ public class Test1 {
 
 	public static void main(String[] args) throws Exception {
 		// 创建配置对象
+		
 		Configuration configuration = new Configuration();
 		// 加载模板目录
 		configuration.setDirectoryForTemplateLoading(new File("src/main/java/com/qf/fm/"));
